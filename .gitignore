@@ -1,8 +1,41 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-venv/
+# Python
 __pycache__/
-*.pyc
-.vscode/
-.env
-.env.example
+*.py[cod]
+*$py.class
 
+# Environments
+.venv/
+env/
+venv/
+.env
+pip-wheel-metadata/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing and coverage
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+
+# Editors and IDEs (adjust as needed)
+.idea/  # JetBrains IDEs (e.g., PyCharm)
+.vscode/ # VS Code
+*.swp # Vim
+*.swo # Vim
+.DS_Store # macOS
+
+# FastAPI specific
+test_db.db # Example for a local SQLite database file
+log.txt # Example for a log file
